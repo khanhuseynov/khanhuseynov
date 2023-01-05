@@ -6,9 +6,9 @@
 - 📫 How to reach me **khan.huseynovv@gmail.com**
 
 - ⚡ Fun fact **I think i am funny**
-- <br>
-- <br>
 
+<br>
+<br>
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 </p>
