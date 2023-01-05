@@ -1,12 +1,12 @@
 <h1 align="center">Hi 👋, I'm Khan</h1>
 <h3 align="center">A passionate frontend developer from Azerbayjan</h3>
-<hr>
+
 
 - 🌱 I’m currently learning **Frameworks**
- <hr>
+
 
 - 📫 How to reach me **khan.huseynovv@gmail.com**
- <hr>
+
 
 - ⚡ Fun fact **I think i am funny**
 
