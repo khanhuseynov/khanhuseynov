@@ -1,19 +1,46 @@
-<h1 align="center">Hi 👋, I'm Khan</h1>
-<h3 align="center">A passionate frontend developer from Azerbayjan</h3>
+ <p class="typed-text"></p>
 
 
-- 🌱 I’m currently learning **Frameworks**
+    <style>
+        p{
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 30px;
+            color: brown;
+        }
+    </style>
 
 
-- 📫 How to reach me **khan.huseynovv@gmail.com**
 
+    <script>
+        const typedText = document.querySelector('.typed-text');
 
-- ⚡ Fun fact **I think i am funny**
+const textArray = ['HI', 'I AM KHAN', 'I AM JUNIOR FRONTEND DEVELOPER'];
+let textIndex = 0;
+let charIndex = 0;
 
-<br>
-<br>
+function type() {
+  if (charIndex < textArray[textIndex].length) {
+    typedText.textContent += textArray[textIndex].charAt(charIndex);
+    charIndex++;
+    setTimeout(type, 100);
+  } else {
+    setTimeout(erase, 1000);
+  }
+}
 
+function erase() {
+  if (charIndex > 0) {
+    typedText.textContent = textArray[textIndex].substring(0, charIndex - 1);
+    charIndex--;
+    setTimeout(erase, 100);
+  } else {
+    textIndex++;
+    if (textIndex >= textArray.length) textIndex = 0;
+    setTimeout(type, 1000);
+  }
+}
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> </p>
+type();
+
+    </script>
 
