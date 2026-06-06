@@ -3,7 +3,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=khanhuseynov&label=Profile%20views&color=0e75b6&style=flat" alt="khanhuseynov" /> </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=khanhuseynov" alt="khanhuseynov" /></a> </p>
+
 
 - I’m currently preparing for interviews **interviews**
 
